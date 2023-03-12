@@ -1,0 +1,4 @@
+import React from "reacts"
+const App = () => <div> Hello from React</div>;
+
+export default App;

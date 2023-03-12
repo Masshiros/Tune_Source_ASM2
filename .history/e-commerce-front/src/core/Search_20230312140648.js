@@ -1,0 +1,20 @@
+import React, { useState, useEffect } from "react";
+
+import { getGenres } from "./apiCore";
+import Card from "./Card";
+
+const Search = () => {
+  const [data, setData] = useState({
+    genres: [],
+    genreId: "",
+    search: "",
+    results: [],
+    searched: false,
+  });
+  return (
+    <div>
+      <h2>Search Bar</h2>
+    </div>
+  );
+};
+export default Search;
